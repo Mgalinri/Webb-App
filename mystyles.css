@@ -1,0 +1,520 @@
+@import "Stylesheet.css";
+.im{
+    width: 100%;
+    position: relative;
+    height: 100vh;
+    background-image: url("C:/Users/mgali/Documents/John Brown University/Spring_Semester_Sophomore/Mobile Applications and Web Development/Week 7/Store/img/main_page.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+a{
+    text-decoration: none;
+   
+    
+}
+.plant{
+ 
+    width: 100%;
+    height: 100%;
+    padding: 12px;
+
+}
+
+.container{
+    position: relative;
+}
+.start{
+    position: absolute;
+    color:white;
+    top:25vh;
+    padding-left: 24px;
+    margin-bottom: 24px;
+    margin-left: 2px;
+    width: 400px;
+    float: left;
+    height: 34px;
+    align-items: center;
+    vertical-align: middle;
+    margin: auto;
+    
+    left: 0px;
+   
+    height: 100px;
+  
+}
+
+.second {
+    position: relative;
+    align-items: center;
+}
+.start h1{
+    font-size: 40px;
+}
+.store{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.product{
+   width: 200px;
+    position: relative;
+   height: 200px;
+   background-color: 	#699B4C;
+    margin: 20px;
+   display: absolute;
+}
+
+.title{
+    color:black;
+}
+.store_1{
+    display:inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+.product_info{
+    margin-top: 20px;
+}
+
+.pop{
+    display: flex;
+    align-items: center;
+     background-color: black;
+     width: 100%;
+     text-align: center;
+     height: 50px;
+    
+ }
+
+ .pop_up{
+      width: 500px;
+      height: 400px;
+      
+      background-color: white;
+ }
+
+.whole{
+    position: relative;
+}
+
+.con{
+    display: flex;
+    visibility: hidden;
+    position: fixed;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+   
+}
+
+.img{
+
+    width: 50%;
+    float: left;
+}
+.image{
+    display: flex;
+    width: 500px;
+    height: 400px;
+    
+}
+
+.info{
+   width: 50%;
+    float: right;
+ 
+    
+  
+    position: relative;
+    align-items: center;
+    z-index: 1;
+}
+.menu {
+    display: flex;
+    background-color:black;
+    justify-content: left;
+    height: 50px;
+    text-align: justify;
+    width: 100%;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.menu_item{
+    color: white;
+    text-align: center;
+    height: 50px;
+    width: 18%;
+    margin-right: 0;
+    line-height:50px;
+    border-right: white 2px solid;
+
+}
+
+.menu_item:hover{
+    background-color: white;
+    color:black;
+    border-bottom: white 2px solid;
+}
+
+h1, h2, h3{
+    font-family: 'Ubuntu', sans-serif;
+}
+p{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: bold;
+}
+.title{
+    font-size: 7.8vw;
+    margin-bottom: 10px;
+}
+
+.content{
+    display:flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    z-index: 1;
+
+}
+.c{
+    position: absolute;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    display: none;
+
+}
+.item{
+    position: relative;
+}
+
+.division{
+    margin: 0;
+    background-color: white;
+    height: 2px;
+    border: white;
+}
+.banner{
+    display: grid;
+    width: 100%;
+    align-items: center;
+    position: relative;
+
+}
+
+.logo{
+    height:  15.772870662460567vw;
+    position: absolute;
+     margin-right: 0;
+    margin-left: 80%;
+
+
+}
+.content a{
+    display: block;
+    color: white;
+    position: relative;
+}
+.content  a:hover {
+    background-color: yellowgreen;
+    color:black;
+   
+  
+}
+
+.menu_item:hover .c{
+    display: block;
+    
+}
+
+.buy_button{
+    border: black 4px solid;
+    width: 20vh;
+    text-align: center;
+    box-shadow: 2px 3px;
+   position: absolute;
+   margin-top: 10px;
+   
+
+}
+.back{
+    position:absolute ;
+     width: 50px;
+     height: 40px;
+    
+    border: black 4px solid;
+    box-shadow: 2px 3px;
+     margin-top: 80px;
+    margin-right: 0;
+    margin-left: 130px;
+     text-align: center;
+     border-right: 20px;
+    
+}
+.buy_button:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 2px 3px yellowgreen;
+}
+.back:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 2px 3px yellowgreen;
+}
+
+
+
+.text{
+    display: flex;
+    flex-direction: column;
+}
+a {
+  text-decoration: none;
+   color: black;
+}
+a:hover{
+    color: black;
+}
+.lin{
+    align-items: center;
+    position: absolute;
+    margin-right: 0;
+    margin-left: 78%;
+    color: #699B4C;
+    z-index: 1;
+  
+
+}
+.basket{
+    display: flex;
+  
+}
+
+.bask{
+    border-right: none;
+    align-items: center;
+    
+  
+    
+}
+.pic{
+    width: 20px;
+    height: 20px;
+
+}
+.pic_1{
+  
+   align-content: center;
+ 
+   width: 20px;
+   height: 50px;
+
+   
+}
+.number{
+   
+    text-align: center;
+    margin-right: 25%;
+    width: 10px;
+    height: 50px;
+    align-items: center;
+    left: 20%;
+    position: relative;
+   line-height: 15px;
+    margin-left: 25%;
+    
+}
+.num{
+    text-align: center;
+    color: white;
+    top: 0;
+    display: block;
+  
+    border-color: blueviolet;
+    
+  
+}
+.num:hover{
+    color: black;
+}
+
+.container_1{
+    width: 100%;
+    height: 630px;
+    display: flex;
+    position: absolute;
+ 
+    justify-content: right;
+    align-content: right ;
+ 
+}
+.bought{
+    background-color: black;
+    color: white;
+    width: 400px;
+    z-index: 2;
+    visibility: hidden;
+    right: 0;
+
+}
+.bag_text{
+    text-align: center;
+    position: static;
+}
+.shopping_bag_elements{
+    width:100%;
+    min-height: 400px;
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    position: static;
+    
+}
+.shopping_bag_end{
+    border-top: 1px white solid;
+  
+    width: 100%;
+    height:150px;
+    order: 2;
+  
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+.basket_a{
+    display: block;
+    background-color: black;
+    width: 18%;
+}
+.but{
+    position: static;
+    width: 90%;
+    background-color: white;
+    box-shadow: none;
+    justify-content: center;
+    height: 30px;
+     margin-left: 15px;
+     
+     line-height: 26px;
+    font-family: 'Nanum Gothic', sans-serif;
+    
+    
+}
+.buttons{
+    position: relative;
+    margin-top: -10px;
+    margin-bottom: 50px;
+    
+}
+.subtotal{
+    display: block;
+ padding-top: 12px;
+    width: 100%;
+    height: 50px;
+    text-align: left;
+    padding-left: 10px;
+    color: white;
+    padding-right: 20px;
+ 
+}
+.menu_item:hover p{
+    color: black;
+}
+.num{
+    display: flex;
+    flex-direction: row;
+    
+}
+.num_1{
+    width: 100%;
+    padding-right: 3vh;
+    text-align: right;
+  
+}
+.shopping_element{
+    position: static;
+   
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+    margin-left: 22px;
+    height: 120px;
+}
+.element_small{
+    width: 100px;
+    height: 100px;
+}
+.element_info{
+    display: flex;
+    width: 100%;
+    height:120px;
+    flex-direction: column;
+    justify-content: center;
+   
+  
+    
+
+}
+.element-title{
+    position: static;
+    display: flex;
+    width: 100%;
+    justify-content: left;
+    
+    text-align: center;
+    height: 30px;
+    
+}
+.element-title-text{
+    position:relative;
+    display: absolute;
+    left: 20px;
+   bottom: 10px;
+}
+.element-price{
+    position: static;
+    display: block;
+    height: 30px;
+    
+   
+
+}
+.text-2{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 300;
+    
+    font-size: 15px;
+}
+.element-remove{
+    position: static;
+    display: flex;
+    width: 100%;
+    justify-content: right;
+    text-align: right;
+    height: 30px;
+   
+}
+.element-title-3{
+    justify-content: right;
+    padding-right: 40px;
+    font-size: 10px;
+    padding-top: 20px;
+}
+.text-3{
+    font-size: 12px;
+    color: white;
+}
+.text-3:hover{
+    text-decoration: underline;
+    color: antiquewhite;
+}
