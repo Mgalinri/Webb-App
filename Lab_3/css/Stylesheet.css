@@ -1,0 +1,144 @@
+.menu {
+    display: flex;
+    background-color:black;
+    justify-content: left;
+    height: 50px;
+    text-align: justify;
+    width: 100%;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.menu_item{
+    color: white;
+    text-align: center;
+    height: 50px;
+    width: 20%;
+    margin-right: 0;
+    line-height:50px;
+    border-right: white 2px solid;
+
+}
+
+.menu_item:hover{
+    background-color: yellowgreen;
+    color:black;
+    border-bottom: white 2px solid;
+}
+
+h1{
+    font-family: 'Ubuntu', sans-serif;
+}
+p{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: bold;
+}
+.title{
+    font-size: 7.8vw;
+    margin-bottom: 10px;
+}
+
+.content{
+    display:flex;
+    flex-direction: column;
+    background-color: yellowgreen;
+    z-index: 1;
+
+}
+.c{
+    position: absolute;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    display: none;
+
+}
+.item{
+    position: relative;
+}
+
+.division{
+    margin: 0;
+    background-color: white;
+    height: 2px;
+    border: white;
+}
+.banner{
+    display: grid;
+    width: 100%;
+    align-items: center;
+    position: relative;
+
+}
+
+.logo{
+    height:  15.772870662460567vw;
+    position: absolute;
+     margin-right: 0;
+    margin-left: 80%;
+
+
+}
+.content a{
+    display: block;
+   
+    position: relative;
+}
+.content  a:hover {
+    background-color: white;
+   
+  
+}
+
+.menu_item:hover .c{
+    display: block;
+    
+}
+.img{
+
+    width: 50%;
+    float: left;
+}
+.image{
+    display: flex;
+    width: 20px;
+    height: 20px;
+   
+
+}
+
+.info{
+   width: 50%;
+    float: right;
+    margin: 20px;
+    margin-top: 1vh;
+    padding: 5vh;
+    position: relative;
+    align-items: center;
+    z-index: -1;
+}
+
+.buy_button{
+    border: black 4px solid;
+    width: 20vh;
+    text-align: center;
+    box-shadow: 2px 3px;
+   position: absolute;
+   margin-top: 10px;
+   
+
+}
+
+.buy_button:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 2px 3px yellowgreen;
+}
+
+.product_info{
+    text-align: center;
+}
+
